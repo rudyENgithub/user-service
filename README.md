@@ -1,5 +1,10 @@
 # User API Service built with haxagonal architecture and DDD
+Diagrama c4
 ![Diagrama c4 User Service DDD y Architecture hexagonal - Rudy Sorto](https://github.com/user-attachments/assets/8c8be117-16e6-4663-b907-c91044592d75)
+
+Diagrama ERD
+![image](https://github.com/user-attachments/assets/8da6dd03-9135-441d-afe2-61387494df7b)
+
 # Table of Contents
 
 - [User API Service](#user-api-service)
@@ -95,7 +100,7 @@ V1__create_tables_users.sql.
 - JDK 21
 - Maven 3.x
 - Git
-- Docker (opcional para despliegue)
+- Docker
 ## Execution
 - ### Test
 
@@ -126,7 +131,7 @@ V1__create_tables_users.sql.
       Utiliza las siguientes credenciales (por defecto):
 
           JDBC URL: jdbc:h2:mem:database_users
-          Username: usr_buser_nisumci
+          Username: user_nisumci
           Password: admin123
 
 - ### Production
@@ -160,5 +165,14 @@ V1__create_tables_users.sql.
 
     - #### 4 Email incorrecto por Expresion Regular
       ![image](https://github.com/user-attachments/assets/0e88d46d-1c8e-4aff-8a60-ba47b4848f31)
+
+    - #### 5 Revision de data en base de datos
+      ![image](https://github.com/user-attachments/assets/d820bd5b-ff46-4d13-b972-f6046e3e7bc2)
+
+      ![image](https://github.com/user-attachments/assets/786b0e81-d857-4b0f-9136-e238eae1eb31)
+
+
+      
+
 
       
