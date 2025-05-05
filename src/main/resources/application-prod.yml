@@ -10,9 +10,9 @@ spring:
             on-profile: prod
     datasource:
         driver-class-name: org.postgresql.Driver
-        url: jdbc:postgresql://localhost:5432/management_db
-        username: usr_bci
-        password: usr_bciPwd
+        url: jdbc:postgresql://localhost:5432/database_users
+        username: user_nisum
+        password: admin123
         hikari:
             auto-commit: true
             minimum-idle: 5

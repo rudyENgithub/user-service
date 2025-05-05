@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  user-service:
+    build: .
+    image: user-service:latest
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres-db:5432/database_users
+      - SPRING_DATASOURCE_USERNAME=user_nisum
+      - SPRING_DATASOURCE_PASSWORD=admin123
+      - SPRING_JPA_DATABASE_PLATFORM=org.hibernate.dialect.PostgreSQLDialect
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres-db
+
+  postgres-db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: database_users
+      POSTGRES_USER: user_nisum
+      POSTGRES_PASSWORD: admin123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-data:
