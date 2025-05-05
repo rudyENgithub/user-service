@@ -11,6 +11,7 @@
     - [Test](#test)
     - [Production](#production)
   - [resources](#resources)
+  - [Cases Use](#cases-use)
 
 ## Features
 
@@ -57,6 +58,7 @@
 - **Lenguaje y Frameworks:**
     - Java 21
     - Spring Boot 3.3.10
+    - Junit, Mockito
 - **Persistencia y Base de Datos:**
     - Spring Data JPA
     - H2 (en desarrollo, configurable para otros entornos)
@@ -144,5 +146,19 @@ V1__create_tables_users.sql.
        `/user-service/resources`
 
         /diagrams
-        /postman-collection
-        /scripts-db
+        /postman-api
+        /database-script
+  - ### Cases Use
+    - #### 1 Creacion de usuario
+      ![image](https://github.com/user-attachments/assets/40b3aee7-8792-4ec9-828a-705518b424fe)
+
+    - #### 2 Usuario Existe
+      ![image](https://github.com/user-attachments/assets/d4f4ca16-de14-48c4-9278-0a15c99bb683)
+
+    - #### 3 Password incorrecto por Expresion Regular
+      ![image](https://github.com/user-attachments/assets/29b5ccfe-a140-4bcc-b252-d98c42b8667f)
+
+    - #### 4 Email incorrecto por Expresion Regular
+      ![image](https://github.com/user-attachments/assets/0e88d46d-1c8e-4aff-8a60-ba47b4848f31)
+
+      
