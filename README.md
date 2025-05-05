@@ -16,6 +16,9 @@
 
 - **API RESTful de creación de usuarios:**  
     - Permite registrar usuarios con nombre, correo, contraseña y múltiples teléfonos con el siguiente formato:
+ 
+      ![image](https://github.com/user-attachments/assets/763d22f7-4d69-44fb-9ff3-3b9473200ec3)
+
     {
     "name": "Juan Rodriguez",
     "email": "juan@rodriguez.org",
