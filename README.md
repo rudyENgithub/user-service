@@ -31,7 +31,8 @@
         }
   ]
 }
-  Valida credenciales, actualiza el campo `lastLogin` y genera un token JWT.
+
+  - Valida credenciales, actualiza el campo `lastLogin` y genera un token JWT.
 
 - **Validaciones y Reglas de Negocio:**
   - Validación de formato de correo y contraseña (expresiones regulares configurables).
